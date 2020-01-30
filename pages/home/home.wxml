@@ -1,0 +1,32 @@
+
+
+
+<l-loadmore show type="{{loadingType}}" 
+end-text="已经到底了..."
+>
+<view slot="content">
+    <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+    <swiper class="swiper" indicator-dots indicator-active-color="#157658">
+        <block wx:for="{{bannerB.items}}">
+            <swiper-item class="swiper">
+                <image src="{{item.img}}"></image>
+                <!-- //?? -->
+            </swiper-item>
+        </block>
+    </swiper>
+    <scategory-grid grid="{{grid}}"></scategory-grid>
+    <image class="activity" src="{{activityD.entrance_img}}"></image>
+    <view class="spu-scroll">
+        <s-spu-scroll theme="{{themeE}}" spulist="{{themeESpu}}" wx:if="{{themeE.online}}"></s-spu-scroll>
+    </view>
+    <image src="{{themeF.entrance_img}}" class="quality" />
+    <s-hot-list banner="{{bannerG}}"></s-hot-list>
+    <!-- <image width:692rpx height:90rpx src="http://i2.sleeve.7yue.pro/m3.png" /> -->
+    <image src="{{themeH.entrance_img}}" class="fashion" />
+    <view class="spu-bottom">
+        <image src="/images/home/title.png" class="title-bottom-spu"/>
+    </view>
+    <l-water-flow generic:l-water-flow-item="s-spu-preview"></l-water-flow>
+
+</view>                                 
+</l-loadmore>
