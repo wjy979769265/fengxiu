@@ -1,7 +1,7 @@
 <wxs src="../../wxs/price.wxs" module="p"></wxs>
 
 
-<view class="container">
+<view data-pid="{{data.id}}" bind:tap="onItemTap" class="container">
     <image bind:load="onImgLoad" style="width:{{w}}rpx; height:{{h}}rpx" src="{{data.img}}" /> 
     <!-- mode 很方便 widthFix 保持宽高比 宽度不变 高度自动适应-->
     <view class="content-container">
