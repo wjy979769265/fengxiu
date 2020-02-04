@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b19d5fe-dc19-4609-afd4-e3627fc55711" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3b19d5fe-dc19-4609-afd4-e3627fc55711" name="Default Changelist" comment="2.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fence/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/spu.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +62,34 @@
       <workItem from="1577762439499" duration="14259000" />
       <workItem from="1577790169894" duration="352000" />
       <workItem from="1578992421276" duration="829000" />
-      <workItem from="1580804865309" duration="1369000" />
+      <workItem from="1580804865309" duration="4796000" />
     </task>
+    <task id="LOCAL-00001" summary="2.4">
+      <created>1580806331895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580806331895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="0" key="#Inspections" timestamp="1577538190506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="0" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1577538190506" />
+    <state x="651" y="145" key="CommitChangelistDialog2" timestamp="1580806425124">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="651" y="145" key="CommitChangelistDialog2/0.23.1792.1047@0.23.1792.1047" timestamp="1580806425124" />
     <state x="179" y="136" key="SettingsEditor" timestamp="1580806181565">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
