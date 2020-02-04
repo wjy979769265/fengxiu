@@ -1,3 +1,5 @@
+import { Spu } from "../../model/spu"
+
 // pages/detail/detail.js
 Page({
 
@@ -11,8 +13,13 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad: async function (options) {       //options就是传递过来的url的参数
+      const pid = options.pid         //waht is options, parameters from outside?
+      const spu = await Spu.getDetail(pid)
+      console.log(spu)
+      this.setData({
+        spu
+      })
   },
 
   /**

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b19d5fe-dc19-4609-afd4-e3627fc55711" name="Default Changelist" comment="" />
+    <list default="true" id="3b19d5fe-dc19-4609-afd4-e3627fc55711" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fence/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/fence/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/realm/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/realm/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-preview/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-preview/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spu.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/spu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +34,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1VbvKJn08hOAxeOwvyDWaHuwCbW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,10 +46,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,6 +80,7 @@
       <workItem from="1577762439499" duration="14259000" />
       <workItem from="1577790169894" duration="352000" />
       <workItem from="1578992421276" duration="829000" />
+      <workItem from="1580804865309" duration="1369000" />
     </task>
     <servers />
   </component>
@@ -66,10 +92,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="591" y="0" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1577538190506" />
-    <state x="838" y="271" key="SettingsEditor" timestamp="1577781123500">
-      <screen x="0" y="0" width="1834" height="1241" />
+    <state x="179" y="136" key="SettingsEditor" timestamp="1580806181565">
+      <screen x="0" y="23" width="1792" height="1047" />
     </state>
     <state x="838" y="271" key="SettingsEditor/0.0.1834.1241@0.0.1834.1241" timestamp="1577781123500" />
+    <state x="179" y="136" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1580806181565" />
+    <state x="851" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580806281741">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="851" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1047@0.23.1792.1047" timestamp="1580806281741" />
     <state x="836" y="377" width="672" height="676" key="search.everywhere.popup" timestamp="1577774745977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

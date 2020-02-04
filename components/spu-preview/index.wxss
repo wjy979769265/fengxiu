@@ -29,8 +29,8 @@
 .l-tag{
     background-color: #DCEBE6 !important;
     color: #157658 !important;
-    padding-left: 30rpx !important;
-    padding-right: 30rpx !important;
+    padding-left: 10rpx !important;
+    padding-right: 10rpx !important;
     margin-left: 10rpx !important;
     /* margin-right: 10rpx; */
 }

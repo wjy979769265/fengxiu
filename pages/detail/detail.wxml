@@ -1,3 +1,8 @@
+
+
+
+
+<s-realm spu="{{spu}}"></s-realm>
 <view class="container">
     <view class="">
         <image src="" />

@@ -10,7 +10,7 @@ Component({
   
 
   observers:{
-    data:function (data){
+    data:function (data){     //监听器处理分割标签tags
       if(!data){
         return
       }
@@ -44,14 +44,16 @@ Component({
         w:340,
         h:340*height/width
       })
-    }
+    },
+    onItemTap(event){          //处理点击事件的函数
+      const pid =event.currentTarget.dataset.pid   //获得对应data-pid
+      wx.navigateTo({
+        url:`/pages/detail/detail?pid=${pid}`      //把pid放在options 里面
+      })
+    },
   },
-  onItemTap(event){
-    const pid =event.currentTarget.dataset.pid   //对应data-pid
-    wx.navigateTo({
-      url:`/pages/detail/detail?pid=${pid}`
-    })
-  }
+    
+  
 
 
 })
