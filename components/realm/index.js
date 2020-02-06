@@ -15,7 +15,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+      judger:Object,
   },
 
   lifetimes:{
@@ -39,6 +39,7 @@ Component({
       // fenceGroup.initFences()
       fenceGroup.initFences_by_transpose()
       const judger = new Judger(fenceGroup)
+      this.data.judger = judger
       this.bindInitData(fenceGroup)
     }
   },
@@ -54,6 +55,15 @@ Component({
         fences:fenceGroup.fences
       })
 
+    },
+    onCellTap(event){
+      console.log(event.detail);
+      const cell = event.detail.cell
+      const judger = this.data.judger
+      judger.judge(cell)
+      this.setData(
+          {fences:judger.fenceGroup.fences})
     }
+
   }
 })

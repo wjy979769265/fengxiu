@@ -1,25 +1,42 @@
-import {skuCode} from "./sku-code";
+import {SkuCode} from "./sku-code";
+import {CellStatus} from "../core/enum";
 
 
-class Judger{
+class Judger {
 
     fenceGroup
     pathDict = []
 
-    constructor(fenceGroup){
+    constructor(fenceGroup) {
         this.fenceGroup = fenceGroup
-        this.initPathDir()
+        this._initPathDir()
     }
 
-    initPathDir(){
-        this.fenceGroup.spu.sku_list.forEach(s=>{
-            const skuCOde = new skuCode(s.code)
+    _initPathDir() {
+        this.fenceGroup.spu.sku_list.forEach(s => {
+            const skuCode = new SkuCode(s.code)
+            this.pathDict = this.pathDict.concat(skuCode.totalSegments)
         })
     }
+
+    judge(cell){
+        this._changeCellStatus(cell)
+    }
+
+    _changeCellStatus(cell) {
+        if(cell.status === CellStatus.WATTING){
+            cell.status = CellStatus.SELECTED
+        }
+        if(cell.status === CellStatus.SELECTED){
+            cell.status = CellStatus.WATTING
+        }
+
+    }
+
+
 }
 
 
-
-export{
+export {
     Judger
 }
