@@ -1,9 +1,33 @@
 <view class="container">
-    <view src="">
-        <image />
+    <view class="sku-preview">
+        <image class="sku-img"/>
+        <view class="sku-description">
+            <text class="title">测试sku</text>
+            <view>
+                <view class="price-row"></view>
+                <l-price
+                        value="777"
+                        color="#157658"
+                        value-size="28"
+                        unit-size="20"
+                        autofix
+                ></l-price>
+                <l-price deleted
+                         value="999"
+                         color="#999999"
+                         value-size="26"
+                         l-class="discount-price"
+                ></l-price>
+                <view class="sku-pending">
+                    <text>请选择:</text>
+                </view>
+            </view>
+        </view>
     </view>
+
+    <view class="hr"></view>
     <block wx:for="{{fences}}" wx:key="{{index}}">
-<!--        绑定celltap函数为这里的 onCellTap函数-->
+        <!--        绑定celltap函数为这里的 onCellTap函数-->
         <s-fence x="{{index}}" fence="{{item}}" bind:celltap="onCellTap"></s-fence>
     </block>
     <view class="counter-container">

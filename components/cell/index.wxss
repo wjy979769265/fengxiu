@@ -30,7 +30,9 @@
 .forbidden{
     border: 2rpx dashed #bbbbbb;
     color: #bbbbbb;
+    /*color: #000000*/
 }
+
 
 .s-outer{
     border: 2rpx solid #157658;

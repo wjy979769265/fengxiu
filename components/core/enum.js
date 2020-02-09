@@ -1,8 +1,8 @@
 
 const CellStatus = {
-    FORBIDDEN:'forbdden',
+    FORBIDDEN:'forbidden',
     SELECTED:'selected',
-    WATTING:'waiting'
+    WAITING:'waiting'
 }
 
 

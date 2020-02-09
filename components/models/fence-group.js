@@ -16,6 +16,26 @@ class FenceGroup{
         this.skuList = spu.sku_list
     }
 
+    eachCell(cb){
+        for(let i = 0; i<this.fences.length; i++){
+            for(let j=0;j<this.fences[i].cells.length; j++){
+                const cell = this.fences[i].cells[j]
+                cb(cell,i,j)
+            }
+        }
+    }
+
+
+    getDefaultSku(){
+        const defaultSkuId = this.spu.default_sku_id
+        if(!defaultSkuId){
+            return
+        }
+        return this.skuList.find(s=>{
+            s.id===defaultSkuId
+        })
+    }
+
 
     initFences() {    //做遍历，不具有整体性
         const matrix = this._createMatrix(this.skuList)

@@ -4,6 +4,51 @@
 
 
 
-.container{
-    padding: 30rpx;
+.container {
+    padding: 40 rpx;
 }
+
+
+.sku-preview{
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: row;
+}
+.sku-img{
+    width: 160rpx;
+    height: 160rpx;
+}
+
+.sku-description{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*自适应两端分布，还可居中*/
+    margin-left: 40rpx;
+}
+
+
+.discount-price{
+    margin-left: 20rpx;
+}
+
+.price-row{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.hr{
+    width: 690rpx;
+    height: 2rpx;
+    margin-top: 30rpx;
+    background-color: #e9e9e9;
+    margin-left: 30rpx;
+}
+
+
+
+
+.title{
+
+ }

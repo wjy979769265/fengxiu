@@ -57,10 +57,12 @@ Component({
 
     },
     onCellTap(event){
-      console.log(event.detail);
+      // console.log(event);
       const cell = event.detail.cell
+      const x = event.detail.x
+      const y = event.detail.y
       const judger = this.data.judger
-      judger.judge(cell)
+      judger.judge(cell,x,y)
       this.setData(
           {fences:judger.fenceGroup.fences})
     }

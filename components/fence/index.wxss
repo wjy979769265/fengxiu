@@ -1,6 +1,9 @@
 /* components/fence/index.wxss */
 
 
+.container{
+    margin-left: 30rpx;
+}
 
 .row-container{
     display: flex;
@@ -24,6 +27,7 @@
 .hr{
     width: 690rpx;
     height: 2rpx;
+    margin-top: 30rpx;
     background-color: #e9e9e9;
 }
 

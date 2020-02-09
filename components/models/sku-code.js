@@ -15,6 +15,10 @@ class SkuCode{    //所有可能对应的skucode
         // split sku 的代码
         const spuAndSpec = this.code.split('$')
         this.spuId = spuAndSpec[0]        //spu对应的id
+        console.log('spuId')
+        console.log(this.spuId)
+
+
 
         const specCodeArray = spuAndSpec[1].split('#')
         const length = specCodeArray.length
@@ -22,13 +26,15 @@ class SkuCode{    //所有可能对应的skucode
         for(let i = 1; i <= length; i++){
             const segments = combination(specCodeArray,i)
                 const newSegments = segments.map(segs=>{
-                console.log('segs')
-                console.log(segs.join('#'))
+                // console.log('segs')
+                // console.log(segs.join('#'))
                 return segs.join('#')
             })
-            console.log('segments'+i)
-            this.totalSegments.concat(newSegments)
-            console.log(segments)
+            // console.log('segments'+i)
+            this.totalSegments = this.totalSegments.concat(newSegments)
+            console.log('this.totalSegments')
+            console.log(this.totalSegments)
+
         }
 
     }
